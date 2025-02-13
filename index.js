@@ -8,8 +8,8 @@ app.use(express.json());
 
 // Mock customer data
 const customers = {
-    "1234567890": "John Doe",
-    "9876543210": "Alice Smith"
+    "1234567890": "Nivetha",
+    "9876543210": "Abi"
 };
 
 // API Route to get customer details
