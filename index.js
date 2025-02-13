@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Mock customer data
 const customers = {
-    "1234567890": "Nivetha",
+    "+18006183088": "Nivetha",
     "9876543210": "Abi"
 };
 
