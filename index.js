@@ -15,7 +15,7 @@ const customers = {
 // API Route to get customer details
 app.get("/get-customer/:number", (req, res) => {
     const number = req.params.number;
-    const customerName = customers[number] || "Customer not found";
+    const customerName = customers[number] || "Customer";
     res.json({ customerName });
 });
 
